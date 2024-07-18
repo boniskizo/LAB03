@@ -9,12 +9,13 @@ public class Client {
 
         order.addItem(100);
         order.addItem(150);
-        //order.addItem(50);
-        //order.addItem(30);
-        //order.addItem(20);
-        //order.addItem(10);
+        order.addItem(50);
+        order.addItem(30);
+        order.addItem(20);
+        order.addItem(10);
 
         System.out.println(order);
+        //Change for commit
 
         if (order.getTotalPrice() > 200) {
             System.out.println("$20 Discount provided !");
